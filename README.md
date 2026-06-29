@@ -1,4 +1,3 @@
-# manual-testing-projects
 # Manual Testing Projects
 
 This repository contains sample manual testing artifacts created as part of my QA learning and professional experience.
