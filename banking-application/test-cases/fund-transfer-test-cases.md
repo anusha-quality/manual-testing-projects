@@ -1,1 +1,5 @@
-
+| Date        | TS ID     | Scenario               | TC ID     | Test Case                         | Steps                                           | Expected Result                       | Actual Result             | Status | Executed Date |
+| ----------- | --------- | ---------------------- | --------- | --------------------------------- | ----------------------------------------------- | ------------------------------------- | ------------------------- | ------ | ------------- |
+| 29-Jun-2026 | TS_FT_001 | Fund Transfer          | TC_FT_001 | Transfer between own accounts     | Login → Select accounts → Enter amount → Submit | Transfer should complete successfully | Transfer completed        | Pass   | 29-Jun-2026   |
+| 29-Jun-2026 | TS_FT_001 | Fund Transfer          | TC_FT_002 | Transfer amount exceeding balance | Enter amount greater than available balance     | Error message should display          | Error displayed correctly | Pass   | 29-Jun-2026   |
+| 29-Jun-2026 | TS_FT_002 | Beneficiary Management | TC_FT_003 | Add a new beneficiary             | Enter beneficiary details and save              | Beneficiary should be added           | Added successfully        | Pass   | 29-Jun-2026   |
