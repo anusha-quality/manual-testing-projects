@@ -1,28 +1,48 @@
 # Test Summary Report
 
-## Project
+## Project Information
 
-E-Commerce Web Application
+| Field          | Value                      |
+| -------------- | -------------------------- |
+| Project Name   | E-Commerce Web Application |
+| Module         | Login & Authentication     |
+| Test Cycle     | Sprint 12                  |
+| Environment    | UAT                        |
+| Executed By    | Anusha C. K.               |
+| Execution Date | 29-Jun-2026                |
 
-## Test Execution Summary
+---
+
+## Test Execution Metrics
 
 | Metric           | Count |
 | ---------------- | ----- |
-| Total Test Cases | 25    |
-| Passed           | 22    |
-| Failed           | 2     |
-| Blocked          | 1     |
+| Total Test Cases | 10    |
+| Passed           | 9     |
+| Failed           | 1     |
+| Blocked          | 0     |
+| Not Executed     | 0     |
 
-## Defects
+---
+
+## Defect Summary
 
 | Severity | Count |
 | -------- | ----- |
 | Critical | 0     |
 | High     | 1     |
-| Medium   | 2     |
-| Low      | 3     |
+| Medium   | 1     |
+| Low      | 2     |
 
-## Overall Status
+---
 
-The application is stable for release with minor fixes required.
+## Risks
 
+* Login button allows multiple submissions.
+* Email validation requires additional test coverage.
+
+---
+
+## Recommendation
+
+The module is suitable for release after fixing high-priority defects.
